@@ -225,7 +225,7 @@ private:
     friend class Container;
     struct Node;
     struct Touch {
-        double x0, y0, x, y;
+        double x0 = 0, y0 = 0, x = 0, y = 0;
         int64_t target;
         Rect target_rect;
         bool moved;
